@@ -52,7 +52,14 @@ code {
   height: 60vh;
   z-index:1
 }
-.banner img{
+.banner .portada{
+  position: absolute;
   width: 100%;
   height: 100%;
+}
+.banner .foto_perfil{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
