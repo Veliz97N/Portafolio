@@ -5,8 +5,9 @@ import Banner from "./Componentes/Banner";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <Banner></Banner>
+      <Navbar/>
+      
     </div>
   );
 }
